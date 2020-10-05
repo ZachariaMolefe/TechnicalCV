@@ -1,28 +1,33 @@
-.Header {
-  background-color: #3525af;
-  overflow: hidden;
-}
-    
-.Header a {
-  float: left;
-  color: #9153c9;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-    
-.Header a:hover {
-  background-color: #9153c9;
-  color: black;
-}
-    
-.Header a.active {
-  background-color: #9153c9;
-  color: white;
-  }
 
-.resume .resume-title {
+    .start{
+    	font-family:Chilanka;
+      background-color:azure;
+    }
+    .Header {
+        background-color: #3525af;
+        overflow: hidden;
+    }
+    
+    .Header a {
+        float: left;
+        color: #9153c9;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .Header a:hover {
+        background-color: #9153c9;
+        color: black;
+    }
+    
+    .Header a.active {
+        background-color: #9153c9;
+        color: white;
+    }
+    
+    .resume .resume-title {
         font-size: 26px;
         font-weight: 700;
         margin-top: 20px;
@@ -79,3 +84,10 @@
         background: #fff;
         border: 2px solid #0563bb;
     }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
